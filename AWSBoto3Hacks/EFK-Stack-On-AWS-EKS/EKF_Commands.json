@@ -36,6 +36,7 @@ EFK Configurations
 
 4. Install Kibana uisng Hel
 ==> helm install kibana elastic/kibana -n dapr-monitoring
+==> helm install kibana stable/kibana -n dapr-monitoring
 
 5. Install Fluentd
 ==> kubectl apply -f ./fluentd-config-map.yaml
